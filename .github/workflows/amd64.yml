@@ -1,6 +1,6 @@
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
 name: x86-64 Pull and Save Docker Image
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 on:
   workflow_dispatch:
     inputs:
